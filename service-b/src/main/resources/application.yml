@@ -1,9 +1,2 @@
-spring:
-  application:
-    name: service-b # service-b로 설정
-  config:
-    import: "optional:configserver:"
-  cloud:
-    config:
-      uri: http://localhost:8888/ # Config Server의 주소
-      name: service-b # Config Server에서 찾을 설정 파일 이름
+service:
+  name: "202035393 주용완"
